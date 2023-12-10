@@ -1,0 +1,17 @@
+#search-container form {
+  background-color: #cdd6f4;
+  height: 50px;
+  width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+#search-container form input {
+  border: none;
+  outline: none;
+  height: 100%;
+  width: 100%;
+  padding: 0 0 0 20px;
+  font-size: 1em;
+  background: rgba(0, 0, 0, 0);
+}/*# sourceMappingURL=search.css.map */

@@ -1,12 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title></title>
+<html lang="es">
+<head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css/style.css" rel="stylesheet">
-  </head>
-  <body>
-    <h1>aun en proceso...</h1> 
-  </body>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador DuckDuckGo</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/search.css">
+</head>
+<body>
+    <div id="search-container">
+        <form action="https://duckduckgo.com/" method="GET" id="search-form">
+            <input type="text" name="q" id="search-input" placeholder="Search in DuckDuckGo" autofocus required>
+        </form>
+    </div>
+</body>
 </html>
